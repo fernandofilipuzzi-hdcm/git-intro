@@ -1,0 +1,41 @@
+fernando@dev:/data/gitcourse/repo$ git config --list
+fernando@dev:/data/gitcourse/repo$ git config --global fernandofilipuzzi-hdcm fernando
+error: llave no contiene una sección: fernandofilipuzzi-hdcm
+fernando@dev:/data/gitcourse/repo$ git config fernandofilipuzzi-hdcm fernando
+fatal: no en un directorio git
+fernando@dev:/data/gitcourse/repo$ su
+Contraseña: 
+root@dev:/data/gitcourse/repo# nano /etc/resolv.conf
+root@dev:/data/gitcourse/repo# aptitude install git
+git ya está instalado en la versión solicitada (1:2.26.2-1)
+git ya está instalado en la versión solicitada (1:2.26.2-1)
+No se instalará, actualizará o eliminará ningún paquete.
+0 paquetes actualizados, 0 nuevos instalados, 0 para eliminar y 0 sin actualizar.
+Necesito descargar 0 B de ficheros. Después de desempaquetar se usarán 0 B.
+                                                  
+root@dev:/data/gitcourse/repo# exit
+exit
+fernando@dev:/data/gitcourse/repo$ git config --global fernandofilipuzzi-hdcm fernando
+error: llave no contiene una sección: fernandofilipuzzi-hdcm
+fernando@dev:/data/gitcourse/repo$ git config --global user.name fernandofilipuzzi-hdcm
+fernando@dev:/data/gitcourse/repo$ git config --global user.email fernandofilipuzzi.hdcm@gmail.com
+fernando@dev:/data/gitcourse/repo$ git clone https://github.com/fernandofilipuzzi-hdcm/git-intro.git
+Clonando en 'git-intro'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Recibiendo objetos: 100% (6/6), listo.
+fernando@dev:/data/gitcourse/repo$ ls
+git-intro
+fernando@dev:/data/gitcourse/repo$ cd git-intro
+fernando@dev:/data/gitcourse/repo/git-intro$ list
+bash: list: orden no encontrada
+fernando@dev:/data/gitcourse/repo/git-intro$ ls
+README.md
+fernando@dev:/data/gitcourse/repo/git-intro$ git branch new
+fernando@dev:/data/gitcourse/repo/git-intro$ git checkout new
+Cambiado a rama 'new'
+fernando@dev:/data/gitcourse/repo/git-intro$ git status
+En la rama new
+nada para hacer commit, el árbol de trabajo está limpio
